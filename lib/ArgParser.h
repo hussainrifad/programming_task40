@@ -5,6 +5,7 @@
 #include <unordered_map>
 #include <functional>
 #include <iostream>
+#include <optional>
 
 namespace ArgumentParser {
 
