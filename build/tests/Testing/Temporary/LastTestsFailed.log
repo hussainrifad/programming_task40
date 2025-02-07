@@ -1,0 +1,10 @@
+2:ArgParserTestSuite.StringTest
+3:ArgParserTestSuite.ShortNameTest
+4:ArgParserTestSuite.DefaultTest
+5:ArgParserTestSuite.NoDefaultTest
+7:ArgParserTestSuite.MultiStringTest
+8:ArgParserTestSuite.IntTest
+11:ArgParserTestSuite.FlagTest
+12:ArgParserTestSuite.FlagsTest
+14:ArgParserTestSuite.PositionalAndNormalArgTest
+15:ArgParserTestSuite.RepeatedParsingTest
