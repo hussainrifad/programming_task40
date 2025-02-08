@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/labwork4.dir/main.cpp.o -o labwork4  ../lib/libargparser.a 

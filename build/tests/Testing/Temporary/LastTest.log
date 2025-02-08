@@ -1,10 +1,10 @@
-Start testing: Feb 07 14:24 +06
+Start testing: Feb 08 19:42 +06
 ----------------------------------------------------------
 1/17 Testing: ArgParserTestSuite.EmptyTest
 1/17 Test: ArgParserTestSuite.EmptyTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.EmptyTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.EmptyTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.EmptyTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,10 +20,10 @@ Note: Google Test filter = ArgParserTestSuite.EmptyTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ArgParserTestSuite.EmptyTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.EmptyTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.EmptyTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/17 Test: ArgParserTestSuite.StringTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.StringTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.StringTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.StringTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -40,26 +40,17 @@ Note: Google Test filter = ArgParserTestSuite.StringTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.StringTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:67: Failure
-Expected equality of these values:
-  parser.GetStringValue("param1")
-    Which is: ""
-  "value1"
-[  FAILED  ] ArgParserTestSuite.StringTest (0 ms)
+[       OK ] ArgParserTestSuite.StringTest (0 ms)
 [----------] 1 test from ArgParserTestSuite (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.StringTest
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"ArgParserTestSuite.StringTest" end time: Feb 07 14:24 +06
+Test Passed.
+"ArgParserTestSuite.StringTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.StringTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -67,7 +58,7 @@ Test Failed.
 3/17 Test: ArgParserTestSuite.ShortNameTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.ShortNameTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.ShortNameTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.ShortNameTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -76,26 +67,17 @@ Note: Google Test filter = ArgParserTestSuite.ShortNameTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.ShortNameTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:82: Failure
-Expected equality of these values:
-  parser.GetStringValue("param1")
-    Which is: ""
-  "value1"
-[  FAILED  ] ArgParserTestSuite.ShortNameTest (0 ms)
+[       OK ] ArgParserTestSuite.ShortNameTest (0 ms)
 [----------] 1 test from ArgParserTestSuite (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.ShortNameTest
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"ArgParserTestSuite.ShortNameTest" end time: Feb 07 14:24 +06
+Test Passed.
+"ArgParserTestSuite.ShortNameTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.ShortNameTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -103,7 +85,7 @@ Test Failed.
 4/17 Test: ArgParserTestSuite.DefaultTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.DefaultTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.DefaultTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.DefaultTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -128,7 +110,7 @@ C++ exception with description "Boolean default value can only be used with flag
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"ArgParserTestSuite.DefaultTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.DefaultTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.DefaultTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -136,7 +118,7 @@ Test Failed.
 5/17 Test: ArgParserTestSuite.NoDefaultTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.NoDefaultTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.NoDefaultTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.NoDefaultTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -145,25 +127,17 @@ Note: Google Test filter = ArgParserTestSuite.NoDefaultTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.NoDefaultTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:111: Failure
-Value of: parser.Parse(argc, argv)
-  Actual: true
-Expected: false
-[  FAILED  ] ArgParserTestSuite.NoDefaultTest (0 ms)
+[       OK ] ArgParserTestSuite.NoDefaultTest (0 ms)
 [----------] 1 test from ArgParserTestSuite (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.NoDefaultTest
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"ArgParserTestSuite.NoDefaultTest" end time: Feb 07 14:24 +06
+Test Passed.
+"ArgParserTestSuite.NoDefaultTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.NoDefaultTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -171,7 +145,7 @@ Test Failed.
 6/17 Test: ArgParserTestSuite.StoreValueTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.StoreValueTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.StoreValueTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.StoreValueTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -187,10 +161,10 @@ Note: Google Test filter = ArgParserTestSuite.StoreValueTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ArgParserTestSuite.StoreValueTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.StoreValueTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.StoreValueTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -198,7 +172,7 @@ Test Passed.
 7/17 Test: ArgParserTestSuite.MultiStringTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.MultiStringTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.MultiStringTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.MultiStringTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -207,26 +181,17 @@ Note: Google Test filter = ArgParserTestSuite.MultiStringTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.MultiStringTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:144: Failure
-Expected equality of these values:
-  parser.GetStringValue("param2")
-    Which is: ""
-  "value2"
-[  FAILED  ] ArgParserTestSuite.MultiStringTest (0 ms)
+[       OK ] ArgParserTestSuite.MultiStringTest (0 ms)
 [----------] 1 test from ArgParserTestSuite (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.MultiStringTest
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
-Test Failed.
-"ArgParserTestSuite.MultiStringTest" end time: Feb 07 14:24 +06
+Test Passed.
+"ArgParserTestSuite.MultiStringTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.MultiStringTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -234,7 +199,7 @@ Test Failed.
 8/17 Test: ArgParserTestSuite.IntTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.IntTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.IntTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.IntTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -243,26 +208,11 @@ Note: Google Test filter = ArgParserTestSuite.IntTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.IntTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:159: Failure
-Expected equality of these values:
-  parser.GetIntValue("param1")
-    Which is: 0
-  100500
-[  FAILED  ] ArgParserTestSuite.IntTest (0 ms)
-[----------] 1 test from ArgParserTestSuite (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.IntTest
-
- 1 FAILED TEST
 <end of output>
-Test time =   0.01 sec
+Test time =   0.23 sec
 ----------------------------------------------------------
 Test Failed.
-"ArgParserTestSuite.IntTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.IntTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.IntTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -270,7 +220,7 @@ Test Failed.
 9/17 Test: ArgParserTestSuite.MultiValueTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.MultiValueTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.MultiValueTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.MultiValueTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -286,10 +236,10 @@ Note: Google Test filter = ArgParserTestSuite.MultiValueTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ArgParserTestSuite.MultiValueTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.MultiValueTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.MultiValueTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -297,7 +247,7 @@ Test Passed.
 10/17 Test: ArgParserTestSuite.MinCountMultiValueTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.MinCountMultiValueTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.MinCountMultiValueTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.MinCountMultiValueTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -316,7 +266,7 @@ Note: Google Test filter = ArgParserTestSuite.MinCountMultiValueTest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ArgParserTestSuite.MinCountMultiValueTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.MinCountMultiValueTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.MinCountMultiValueTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -324,7 +274,7 @@ Test Passed.
 11/17 Test: ArgParserTestSuite.FlagTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.FlagTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.FlagTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.FlagTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -333,25 +283,11 @@ Note: Google Test filter = ArgParserTestSuite.FlagTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.FlagTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:208: Failure
-Value of: parser.GetFlag("flag1")
-  Actual: false
-Expected: true
-[  FAILED  ] ArgParserTestSuite.FlagTest (0 ms)
-[----------] 1 test from ArgParserTestSuite (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.FlagTest
-
- 1 FAILED TEST
 <end of output>
-Test time =   0.01 sec
+Test time =   0.24 sec
 ----------------------------------------------------------
 Test Failed.
-"ArgParserTestSuite.FlagTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.FlagTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.FlagTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -359,7 +295,7 @@ Test Failed.
 12/17 Test: ArgParserTestSuite.FlagsTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.FlagsTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.FlagsTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.FlagsTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -368,25 +304,17 @@ Note: Google Test filter = ArgParserTestSuite.FlagsTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.FlagsTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:226: Failure
-Value of: parser.GetFlag("flag1")
-  Actual: false
-Expected: true
-[  FAILED  ] ArgParserTestSuite.FlagsTest (0 ms)
+[       OK ] ArgParserTestSuite.FlagsTest (0 ms)
 [----------] 1 test from ArgParserTestSuite (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.FlagsTest
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
-Test Failed.
-"ArgParserTestSuite.FlagsTest" end time: Feb 07 14:24 +06
+Test Passed.
+"ArgParserTestSuite.FlagsTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.FlagsTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -394,7 +322,7 @@ Test Failed.
 13/17 Test: ArgParserTestSuite.PositionalArgTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.PositionalArgTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.PositionalArgTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.PositionalArgTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -413,7 +341,7 @@ Note: Google Test filter = ArgParserTestSuite.PositionalArgTest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ArgParserTestSuite.PositionalArgTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.PositionalArgTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.PositionalArgTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -421,7 +349,7 @@ Test Passed.
 14/17 Test: ArgParserTestSuite.PositionalAndNormalArgTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.PositionalAndNormalArgTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.PositionalAndNormalArgTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.PositionalAndNormalArgTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -430,25 +358,11 @@ Note: Google Test filter = ArgParserTestSuite.PositionalAndNormalArgTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.PositionalAndNormalArgTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:264: Failure
-Value of: parser.GetFlag("flag")
-  Actual: false
-Expected: true
-[  FAILED  ] ArgParserTestSuite.PositionalAndNormalArgTest (0 ms)
-[----------] 1 test from ArgParserTestSuite (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.PositionalAndNormalArgTest
-
- 1 FAILED TEST
 <end of output>
-Test time =   0.01 sec
+Test time =   0.23 sec
 ----------------------------------------------------------
 Test Failed.
-"ArgParserTestSuite.PositionalAndNormalArgTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.PositionalAndNormalArgTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.PositionalAndNormalArgTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -456,7 +370,7 @@ Test Failed.
 15/17 Test: ArgParserTestSuite.RepeatedParsingTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.RepeatedParsingTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.RepeatedParsingTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.RepeatedParsingTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -465,25 +379,11 @@ Note: Google Test filter = ArgParserTestSuite.RepeatedParsingTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.RepeatedParsingTest
-/home/durjoy/Desktop/programming_task40/tests/argparser_test.cpp:301: Failure
-Value of: parser.Parse(argc, argv)
-  Actual: false
-Expected: true
-[  FAILED  ] ArgParserTestSuite.RepeatedParsingTest (0 ms)
-[----------] 1 test from ArgParserTestSuite (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] ArgParserTestSuite.RepeatedParsingTest
-
- 1 FAILED TEST
 <end of output>
-Test time =   0.01 sec
+Test time =   0.22 sec
 ----------------------------------------------------------
 Test Failed.
-"ArgParserTestSuite.RepeatedParsingTest" end time: Feb 07 14:24 +06
+"ArgParserTestSuite.RepeatedParsingTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.RepeatedParsingTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -491,7 +391,7 @@ Test Failed.
 16/17 Test: ArgParserTestSuite.HelpTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.HelpTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.HelpTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.HelpTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -500,17 +400,11 @@ Note: Google Test filter = ArgParserTestSuite.HelpTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.HelpTest
-[       OK ] ArgParserTestSuite.HelpTest (0 ms)
-[----------] 1 test from ArgParserTestSuite (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.21 sec
 ----------------------------------------------------------
-Test Passed.
-"ArgParserTestSuite.HelpTest" end time: Feb 07 14:24 +06
+Test Failed.
+"ArgParserTestSuite.HelpTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.HelpTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -518,7 +412,7 @@ Test Passed.
 17/17 Test: ArgParserTestSuite.HelpStringTest
 Command: "/home/durjoy/Desktop/programming_task40/build/tests/argparser_tests" "--gtest_filter=ArgParserTestSuite.HelpStringTest" "--gtest_also_run_disabled_tests"
 Directory: /home/durjoy/Desktop/programming_task40/build/tests
-"ArgParserTestSuite.HelpStringTest" start time: Feb 07 14:24 +06
+"ArgParserTestSuite.HelpStringTest" start time: Feb 08 19:42 +06
 Output:
 ----------------------------------------------------------
 Running main() from /home/durjoy/Desktop/programming_task40/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -527,18 +421,12 @@ Note: Google Test filter = ArgParserTestSuite.HelpStringTest
 [----------] Global test environment set-up.
 [----------] 1 test from ArgParserTestSuite
 [ RUN      ] ArgParserTestSuite.HelpStringTest
-[       OK ] ArgParserTestSuite.HelpStringTest (0 ms)
-[----------] 1 test from ArgParserTestSuite (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.19 sec
 ----------------------------------------------------------
-Test Passed.
-"ArgParserTestSuite.HelpStringTest" end time: Feb 07 14:24 +06
+Test Failed.
+"ArgParserTestSuite.HelpStringTest" end time: Feb 08 19:42 +06
 "ArgParserTestSuite.HelpStringTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 07 14:24 +06
+End testing: Feb 08 19:42 +06
